@@ -1,0 +1,148 @@
+
+
+
+.input{border: 1px solid #999999;
+    width: 687px;
+    padding: 20px;
+    font-size: 20px;
+    height: 85px;
+    border-radius: 10px;
+  }
+    
+  
+   
+  .p{
+    text-decoration: underline;
+    margin-top: 30px;
+  }
+  .left{
+    width:500px;
+    height: 90vh;
+    background-image: linear-gradient(45deg, #6c63cb,#d428cd);
+    border-radius: 10px;
+    
+  }
+  
+  .Container{
+    border-radius:20px;
+    box-shadow: 20px;
+    background-color: white;
+    padding: 10px;
+    
+  }
+  
+    
+  
+  .heading{
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+    font-style: italic;
+    margin-right: 45px;
+    margin-top:2px ;
+  }
+  
+  .button{
+  
+    padding: 30px;
+    color: white;
+    height:85px;
+    width: 685px;
+    border-radius:10px;
+    font-weight: bold;
+    background-image: linear-gradient(45deg,#6c63cb,#d428cd);
+    margin-top: 80px;
+    margin-right: 50px;
+    text-align: center;
+  
+  }
+  
+  .text{
+    color: #d428cd;
+    font-weight: 400px;
+    margin-left: 325px;
+    margin-top: 20px;
+     width: 0px;
+    height: 0px;
+    margin-top: 0px;
+    left: 0px;
+    gap: 0px;
+    opacity: 0px;
+    
+    
+  }
+  .ab{
+    margin-left: 280px;
+    margin-top: 85px;
+  }
+  
+  .a{
+    margin-left: 20px;
+    margin-right: 200px;
+    height: 85px;
+    width: 85px;
+    
+  }
+  
+  .b{
+    height: 550px;
+    width:100vh;
+    padding-bottom: 10px;
+    margin-left: 0px;
+    padding-left: 0px;
+    margin-top: 92px;
+    padding-top: 80px;  
+    
+  }
+  .card{
+    border: 2px solid white;
+    background-color: white;
+  }
+  .hole{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 100vh;
+  }
+  .error{
+    color: red;
+  }
+   
+  
+  
+  @media only screen and (max-width: 1200px)
+  {
+    .a{
+      margin-left: 0px;
+      margin-right: 0px;
+      height: 0px;
+      width: 0px;
+      
+  }
+  .b{
+    height: 0px;
+    width:0vh;
+    padding-bottom: 0px;
+    margin-left: 0px;
+    padding-left: 0px;
+    margin-top: 0px;
+    padding-top: 0px;  
+    
+  }
+  .Container{
+    border-radius:20px;
+    box-shadow: 20px;
+    background-color: white;
+    padding: 10px;
+    
+  }
+  .left{
+    width:0px;
+    height: 0vh;
+    background-image: linear-gradient(white);
+    border-radius: 0px;
+    
+  }
+  
+  
+  }

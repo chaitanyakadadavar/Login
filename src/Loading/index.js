@@ -1,5 +1,5 @@
 import "./index.css"
-function Login (){
+function Loading (){
     return (
 
         <div className="overlay ">
@@ -12,4 +12,4 @@ function Login (){
 }
 
 
-export default Login ;
+export default Loading ;
